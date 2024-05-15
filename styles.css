@@ -1,0 +1,30 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/numbers.css");
+@import url("styles/jobs.css");
+@import url("styles/card.css");
+@import url("styles/footer.css");
+
+:root {
+    --background-color: #FFFFFF;
+    --gray: #667085;
+    --red: #8E2424;
+    --main-font: "Poppins";
+    --black: #000000;
+    --red-border:rgba(142, 36, 36, 0.05);
+    --light-gray: #EAECF0;
+    --card-background-color: rgba(195, 25, 25, 0.03);
+    --footer-background: #F9FAFB;
+    --footer-font-color: #98A2B3;
+    --footer-box: #D0D5DD;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-color);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,78 @@
+.jobs {
+    padding: 3.5em 3em 2em;
+    /*text-align: center;*/
+}
+
+.talents {
+    text-align: center;
+    padding: 0 1em;
+}
+
+.talents-subtitle {
+    color: var(--red);
+    font-weight: 500;
+
+}
+
+.talents-subtitle span {
+    background-color: var(--red-border);
+    border: 2px var(--red-border);
+    border-radius: 20px;
+    padding: 0.5em 1em;
+}
+
+.talents-title {
+    color: var(--black);
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 1.3em;
+}
+
+.talents-text {
+    color: var(--gray);
+    font-size: 18px;
+    padding: 1.5em 0 3em 0;
+}
+
+.talents-image {
+    width: 100%;
+}
+
+.positions {
+    padding: 3em;
+}
+
+.positions-type {
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 1.5em 0 0.5em 0;
+    margin: 0 14.5em;
+}
+
+.positions-container {
+    border: 1px solid var(--light-gray);
+    border-radius: 12px;
+    margin: 2em 16em;
+}
+
+.positions-text-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.positions-name {
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.5em 1.5em;
+}
+
+.positions-text {
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: flex-start;
+    padding: 1.5em 1.5em 2em 1.5em;
+}
+

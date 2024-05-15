@@ -1,0 +1,25 @@
+.banner {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 5em;
+}
+
+.banner-subtitle {
+    color: var(--red);
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.banner-title {
+    color: var(--black);
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.banner-text {
+    color: var(--gray);
+    font-size: 18px;
+    padding: 1em 21em;
+    line-height: normal;
+}

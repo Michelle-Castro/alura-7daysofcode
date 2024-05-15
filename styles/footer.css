@@ -1,0 +1,36 @@
+.footer {
+    background-color: var(--footer-background);
+    text-align: center;
+    padding: 4.5em;
+}
+
+.footer-title {
+    color: var(--black);
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.footer-text {
+    color: var(--gray);
+    padding: 1.5em 0 2em 0;
+}
+
+.footer-search {
+    font-size: 16px;
+    padding: 0.8em 5em 0.7em 1em;
+    border: 2px solid var(--footer-box);
+    border-radius: 12px;
+    margin-right: 0.5em;
+}
+
+.options-button {
+    font-size: 16px;
+    border: 2px var(--red);
+    text-decoration: none;
+}
+
+.footer-copyrights {
+    color: var(--footer-font-color);
+    font-size: 14px;
+    padding-top: 2em;
+}

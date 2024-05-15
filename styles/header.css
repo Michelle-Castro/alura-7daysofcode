@@ -1,0 +1,37 @@
+.heading {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 2em 6em;
+
+}
+
+.container-options {
+    display: flex;
+}
+
+.container-options-middle {
+    padding-right: 11em;
+}
+
+.options-link {
+    color: var(--gray);
+    text-decoration: none;
+    font-family: var(--main-font);
+    padding: 2em;
+}
+
+.options-button {
+    color: var(--background-color);
+    background-color: var(--red);
+    padding: 0.7em 1em;
+    border: 2px solid var(--red);
+    border-radius: 12px;
+}
